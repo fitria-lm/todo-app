@@ -1,0 +1,108 @@
+/* === Global === */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* === Form === */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+form input, form select, form textarea, form button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+form button {
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+form button:hover {
+  background: #45a049;
+}
+
+/* === Todo List === */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li span {
+  flex: 1;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* === Buttons === */
+button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.delete-btn { background: red; color: white; }
+.edit-btn { background: orange; color: white; }
+.done-btn { background: green; color: white; }
+
+/* === Dark Mode === */
+body.dark-mode {
+  background: #121212;
+  color: #eee;
+}
+
+body.dark-mode .container {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+body.dark-mode li {
+  background: #2c2c2c;
+}
+
+body.dark-mode form input,
+body.dark-mode form select,
+body.dark-mode form textarea {
+  background: #333;
+  color: #eee;
+  border: 1px solid #555;
+}

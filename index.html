@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📝 My To-Do List</h1>
+
+    <!-- Form input task -->
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Task title..." required>
+      <textarea id="todo-notes" placeholder="Notes..."></textarea>
+      <input type="date" id="todo-date">
+      <input type="time" id="todo-time">
+      <input type="number" id="todo-duration" placeholder="Duration (hours)">
+      <input type="datetime-local" id="todo-deadline">
+
+      <label>Priority:</label>
+      <select id="todo-priority">
+        <option value="1">Do Now</option>
+        <option value="2">Plan</option>
+        <option value="3">Delegate</option>
+        <option value="4">Eliminate</option>
+      </select>
+
+      <label>Recurring:</label>
+      <select id="todo-recurring">
+        <option value="none">One-time</option>
+        <option value="daily">Daily</option>
+        <option value="weekly">Weekly</option>
+        <option value="monthly">Monthly</option>
+      </select>
+
+      <button type="submit">Add Task</button>
+    </form>
+
+    <!-- Tools -->
+    <div class="tools">
+      <input type="text" id="search" placeholder="🔍 Search task...">
+      <select id="status-filter">
+        <option value="all">All</option>
+        <option value="pending">Pending</option>
+        <option value="done">Done</option>
+        <option value="overdue">Overdue</option>
+      </select>
+      <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </div>
+
+    <!-- Task List -->
+    <ul id="todo-list"></ul>
+
+    <!-- History Section -->
+    <h2>✅ Completed Tasks</h2>
+    <ul id="history-list"></ul>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
