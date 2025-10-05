@@ -1,6 +1,6 @@
 # 📝 To-Do List Web App
 
-![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-brightgreen)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-brightgreen)](https://fitria-lm.github.io/todo-app/)
 
 Mini Project - To-Do List  
 Author: **fitria-lm**  
