@@ -84,6 +84,13 @@ button {
 .edit-btn { background: orange; color: white; }
 .done-btn { background: green; color: white; }
 
+.theme-btn {
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
 /* === Dark Mode === */
 body.dark-mode {
   background: #121212;
@@ -106,3 +113,4 @@ body.dark-mode form textarea {
   color: #eee;
   border: 1px solid #555;
 }
+
