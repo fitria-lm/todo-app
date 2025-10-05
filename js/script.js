@@ -74,3 +74,27 @@ document.getElementById("todo-form").addEventListener("submit", function(e) {
   addTask(newTask);
   input.value = "";
 });
+
+// =============================
+// 7. Dark Mode Toggle
+// =============================
+const themeToggle = document.getElementById("dark-mode-toggle");
+const body = document.body;
+
+// cek preferensi sebelumnya
+if (localStorage.getItem("theme") === "dark") {
+  body.classList.add("dark-mode");
+  themeToggle.textContent = "☀️";
+}
+
+themeToggle.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+
+  if (body.classList.contains("dark-mode")) {
+    themeToggle.textContent = "☀️"; // ganti ikon ke matahari
+    localStorage.setItem("theme", "dark");
+  } else {
+    themeToggle.textContent = "🌙"; // ganti ikon ke bulan
+    localStorage.setItem("theme", "light");
+  }
+});
