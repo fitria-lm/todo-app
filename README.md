@@ -1,5 +1,7 @@
 # 📝 To-Do List Web App
 
+![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-brightgreen)
+
 Mini Project - To-Do List  
 Author: **fitria-lm**  
 
