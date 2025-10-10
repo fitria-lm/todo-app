@@ -2,7 +2,7 @@
 
 [![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-brightgreen)](https://fitria-lm.github.io/todo-app/)
 
-Mini Project – To-Do List
+Mini Project – To-Do List  
 Author: **fitria-lm**
 
 ---
@@ -37,7 +37,7 @@ This project was created as a mini practice project, featuring both basic and ad
 
 ## 🌍 Live Demo
 
-GitHub Pages: [Click here](https://fitria-lm.github.io/todo-app/)
+GitHub Pages: [Click here](https://fitria-lm.github.io/todo-app/) <br>
 Repository: [Click here](https://github.com/fitria-lm/todo-app)
 
 ---
